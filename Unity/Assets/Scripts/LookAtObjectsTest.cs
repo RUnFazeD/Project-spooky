@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class LookAtObjectsTest : MonoBehaviour
 {
     public GameObject IconOB;
-    public Text textOB;
+    public TextMeshProUGUI textOB;
     public string description = "Description";
 
     public bool inReach;
@@ -14,7 +15,7 @@ public class LookAtObjectsTest : MonoBehaviour
 
     void Start()
     {
-        textOB.GetComponent<Text>().enabled = false;
+        textOB.GetComponent<TextMeshProUGUI>().enabled = false;
         IconOB.SetActive(false);
     }
 
@@ -24,7 +25,6 @@ public class LookAtObjectsTest : MonoBehaviour
         {
             inReach = true;
             IconOB.SetActive(true);
-            textOB.GetComponent<Text>().enabled = true;
         }
     }
 
@@ -34,8 +34,8 @@ public class LookAtObjectsTest : MonoBehaviour
         {
             inReach = false;
             IconOB.SetActive(false);
-            textOB.GetComponent<Text>().enabled = false;
-            textOB.GetComponent<Text>().text = "";
+            textOB.GetComponent<TextMeshProUGUI>().enabled = false;
+            textOB.GetComponent<TextMeshProUGUI>().text = "";
         }
     }
 
@@ -44,6 +44,7 @@ public class LookAtObjectsTest : MonoBehaviour
         if (inReach && Input.GetButtonDown("Interact"))
         {
             textOB.text = description.ToString();
+            textOB.GetComponent<TextMeshProUGUI>().enabled = true;
         }   
 
     }

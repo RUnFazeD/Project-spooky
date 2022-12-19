@@ -37,6 +37,7 @@ void Update()
     {
         if (inReach && Input.GetButtonDown("Interact"))
         {
+            inReach = false;
             IconOB.SetActive(false);
         }
 
