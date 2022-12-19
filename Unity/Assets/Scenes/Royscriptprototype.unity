@@ -852,7 +852,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IconOB: {fileID: 1768663326}
   textOB: {fileID: 40682600}
-  description: Thanks mom.. kdajlkdjlka
+  description: Thanks mom..
   inReach: 0
 --- !u!1001 &144818957
 PrefabInstance:
