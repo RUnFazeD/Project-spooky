@@ -50,7 +50,7 @@ public class MainMenuLogic : MonoBehaviour
         Intro.SetActive(true);
         mainMenu.GetComponent<Canvas>().enabled = false;
         buttonSound.Play();
-        SceneManager.LoadScene("Royscriptprototype");
+        SceneManager.LoadScene("Forest Terrain");
     }
 
     public void ExtrasButton()

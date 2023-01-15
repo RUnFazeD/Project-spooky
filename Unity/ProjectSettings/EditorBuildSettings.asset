@@ -11,7 +11,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Titlescreen.unity
     guid: d77229e96097f044d9fc77f41facc71d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Royscriptprototype.unity
     guid: 82b226e5b1e39ac40a1b326b5fb532e5
+  - enabled: 1
+    path: Assets/Scenes/Forest Terrain.unity
+    guid: 86f0383ae1d55da41977afb54a24911f
+  - enabled: 1
+    path: Assets/Scenes/Dungeon Map.unity
+    guid: 0943fbc9bc3a7fe4088161e45aea662c
+  - enabled: 1
+    path: Assets/Scenes/Clean Bedroom.unity
+    guid: 9647a374f16103143ae568511487bb3d
+  - enabled: 1
+    path: Assets/Scenes/Dungeon Map 2.unity
+    guid: 6ff841e95163aa548bbbdcd494a65ffd
+  - enabled: 1
+    path: Assets/Scenes/Bathroom.unity
+    guid: d9d408709b23ded458632e2c98d26193
+  - enabled: 1
+    path: Assets/Scenes/Bathroom cursed.unity
+    guid: fa5c5ecfa48df7941b6f6c47bff570df
   m_configObjects: {}
