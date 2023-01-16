@@ -1,0 +1,371 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6652774360103149778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6652774360103149779}
+  - component: {fileID: 6652774360103149788}
+  m_Layer: 0
+  m_Name: Bathroom floor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6652774360103149779
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6652774360103149778}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -18.638723, y: -2.966288, z: -25.600067}
+  m_LocalScale: {x: 0.91161, y: 0.91161, z: 0.91161}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6618565723305296874}
+  - {fileID: 6618565721544015009}
+  - {fileID: 6618565722831251415}
+  - {fileID: 6618565721667090687}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6652774360103149788
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6652774360103149778}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.264077, y: 0.44662717, z: 8.31558}
+  m_Center: {x: -5.2865887, y: 2.9942605, z: 1.5297161}
+--- !u!1001 &6652774358924993537
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6652774360103149779}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.48735
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.48735
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.48735
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.4812775
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.966288
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.3600674
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6067185528594298527, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 64166b7d76b209648a4a90202e8c9ab3, type: 2}
+    - target: {fileID: 919132149155446097, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_Name
+      value: Bathroom floor
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+--- !u!4 &6618565723305296874 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+  m_PrefabInstance: {fileID: 6652774358924993537}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6652774359441309756
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6652774360103149779}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.48735
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.48735
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.48735
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.3800774
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.966288
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5387325
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6067185528594298527, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 64166b7d76b209648a4a90202e8c9ab3, type: 2}
+    - target: {fileID: -3270834789232462163, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3270834789232462163, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_Name
+      value: Bathroom floor (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+--- !u!4 &6618565722831251415 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+  m_PrefabInstance: {fileID: 6652774359441309756}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6652774360563474196
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6652774360103149779}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.48735
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.48735
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.48735
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.3800774
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.966288
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.3600674
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6067185528594298527, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 64166b7d76b209648a4a90202e8c9ab3, type: 2}
+    - target: {fileID: 919132149155446097, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_Name
+      value: Bathroom floor (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+--- !u!4 &6618565721667090687 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+  m_PrefabInstance: {fileID: 6652774360563474196}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6652774360719842122
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6652774360103149779}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.48735
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.48735
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.48735
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.4812775
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.966288
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5387325
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6067185528594298527, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 64166b7d76b209648a4a90202e8c9ab3, type: 2}
+    - target: {fileID: 919132149155446097, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+      propertyPath: m_Name
+      value: Bathroom floor (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+--- !u!4 &6618565721544015009 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b984e5d5faa16aa488117cce3c77ea9d, type: 3}
+  m_PrefabInstance: {fileID: 6652774360719842122}
+  m_PrefabAsset: {fileID: 0}

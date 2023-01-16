@@ -5,6 +5,7 @@ using UnityEngine;
 public class StartingScreenIcons : MonoBehaviour
 {
     public GameObject startingScreen;
+    public GameObject quack;
 
     public float waitTime;
 
@@ -12,7 +13,7 @@ public class StartingScreenIcons : MonoBehaviour
     void Start()
     {
         startingScreen.SetActive(true);
-
+        quack.SetActive(true);
         StartCoroutine(Starting());
     }
 
